@@ -13,10 +13,12 @@ _TokenizedReviews=_FolderName+'2.TokenizedReviews.txt'
 _PosTaggedReviews=_FolderName+'3.PosTaggedReviews.txt'
 _Aspects=_FolderName+'4.Aspects.txt'
 _Opinions=_FolderName+'5.Opinions.txt'
+
 print("\nWELCOME TO OPINION MINING SYSTEM ")
 print("-------------------------------------------------------------")
 input("Please Enter any key to continue...")
 print("\n\n\n\n\n\nPREPROCESSING DATA")
+
 omsFunctions.preProcessing(_ReviewDataset,_PreProcessedData,printResultChoice())
 print("\n\n\n\n\n\nREADING REVIEW COLLECTION...")
 omsFunctions.tokenizeReviews(_ReviewDataset,_TokenizedReviews,printResultChoice())
