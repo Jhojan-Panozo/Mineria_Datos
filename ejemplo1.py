@@ -20,6 +20,7 @@ neg_count = 0
 neg_correct = 0
 
 with open("negativas.txt","r") as f:
+  
   for line in f.read().split('\n'):
     analysis = TextBlob(line)
     #print(line)
