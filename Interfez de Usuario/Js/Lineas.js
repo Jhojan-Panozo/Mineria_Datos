@@ -32,10 +32,10 @@ new Morris.Line({
     // the chart.
     data: [
         { year: '1001', value: -0.9,value2: 0 },
-        { year: '1002', value: -0.5,value2: 0.15 },
-        { year: '1003', value: 0,value2: 0.3  },
-        { year: '1004', value: 0.5,value2: 0.6  },
-        { year: '1005', value: 0.10,value2: 0.76  }
+        { year: '1002', value: -0.5,value2: -0.15 },
+        { year: '1003', value: 0,value2: -0.3  },
+        { year: '1004', value: 0.5,value2: -0.6  },
+        { year: '1005', value: 0.10,value2: -0.76  }
     ],
     // The name of the data record attribute that contains x-values.
     xkey: 'year',
